@@ -1,0 +1,19 @@
+class ayam extends unggas {
+
+    public ayam(String nama, String warna, int umur) {
+        super(nama, warna, umur);
+    }
+
+    @Override
+    public void suara() {
+        System.out.println("ayam berkokok.");
+    }
+
+    public void makan() {
+        System.out.println("ayam makan.");
+    }
+
+    public void makan(String makanan) {
+        System.out.println("ayam makan " + makanan);
+    }
+}
