@@ -1,0 +1,19 @@
+class kucing extends Hewan {
+
+    public kucing(String nama, String warna, int umur) {
+        super(nama, warna, umur);
+    }
+
+    @Override
+    public void suara() {
+        System.out.println("Kucing meong.");
+    }
+
+    public void makan() {
+        System.out.println("Kucing makan.");
+    }
+
+    public void makan(String makanan) {
+        System.out.println("Kucing makan " + makanan);
+    }
+}
