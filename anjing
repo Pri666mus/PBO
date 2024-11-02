@@ -1,0 +1,19 @@
+class anjing extends Hewan {
+
+    public anjing(String nama, String warna, int umur) {
+        super(nama, warna, umur);
+    }
+
+    @Override
+    public void suara() {
+        System.out.println("Anjing menggonggong.");
+    }
+
+    public void makan() {
+        System.out.println("Anjing makan.");
+    }
+
+    public void makan(String makanan) {
+        System.out.println("Anjing makan " + makanan);
+    }
+}
