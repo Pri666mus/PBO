@@ -1,0 +1,20 @@
+class burung extends unggas {
+
+    public burung(String nama, String warna, int umur) {
+        super(nama, warna, umur);
+    }
+    
+
+    @Override
+    public void suara() {
+        System.out.println("Burung berkicau.");
+    }
+
+    public void makan() {
+        System.out.println("Burung makan.");
+    }
+
+    public void makan(String makanan) {
+        System.out.println("Burung makan " + makanan);
+    }
+}
